@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- //mediba Ad -->
+	<string name="Auid"></string>
+		
+	<!--	//AmoAd -->
+	<string name="AMoAd_Sid"></string>
+		
+	<!-- //adMob -->
+	<string name="adUnitId_mediation"></string>
+	
+	<!-- //Nend -->
+	<string name="nendApiKey"></string>
+	<string name="nendSpotId"></string>
+	
+</resources>
