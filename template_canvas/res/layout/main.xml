@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <com.nihon0tc.example.dotClass
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        background="00ffff"
+	/>
+    
+    <ImageView android:id="@+id/ImageGroovy" 
+		android:layout_width="213dip" 
+		android:layout_height="160dip" 
+		android:gravity="center"
+		android:layout_gravity="center"
+		android:onClick="rotate"
+		android:background="@drawable/groovydukemed" >
+	</ImageView> 
+    <ImageView android:id="@+id/ImageGrails" 
+        android:layout_marginLeft="100dip"
+		android:layout_width="69dip" 
+		android:layout_height="58dip" 
+		android:gravity="center"
+		android:layout_gravity="center"
+		android:visibility="invisible"
+		android:background="@drawable/grails" >
+	</ImageView> 
+    <ImageView android:id="@+id/ImageGriffon" 
+        android:layout_marginRight="100dip"
+		android:layout_width="69dip" 
+		android:layout_height="69dip" 
+		android:gravity="center"
+		android:layout_gravity="center"
+		android:visibility="invisible"
+		android:background="@drawable/griffon" >
+	</ImageView> 
+    <ImageView android:id="@+id/ImageGaelyk" 
+        android:layout_marginBottom="110dip"
+		android:layout_width="72dip" 
+		android:layout_height="72dip" 
+		android:gravity="center"
+		android:layout_gravity="center"
+		android:visibility="invisible"
+		android:background="@drawable/gaelyk" >
+	</ImageView> 
+    <ImageView android:id="@+id/ImageGradle" 
+        android:layout_marginTop="100dip"
+		android:layout_width="69dip" 
+		android:layout_height="69dip" 
+		android:gravity="center"
+		android:layout_gravity="center"
+		android:visibility="invisible"
+		android:background="@drawable/gradle" >
+	</ImageView> 
+    
+	<FrameLayout
+	    android:id="@+id/FrameLayoutMainK01"
+	    android:layout_width="fill_parent"
+	    android:layout_height="70dp"
+	    android:foregroundGravity="center|top" >
+	</FrameLayout>
+	 <RelativeLayout 
+	    android:orientation="vertical" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent"> 
+	 
+		<FrameLayout
+			    android:id="@+id/FrameLayoutMainK02"
+			    android:layout_width="320dp"
+			    android:layout_height="70dp"
+			    android:layout_alignParentBottom="true"
+			    android:layout_alignParentLeft="true"
+			    android:foregroundGravity="center|bottom"  
+			    >
+		</FrameLayout>
+	 </RelativeLayout>
+</FrameLayout>

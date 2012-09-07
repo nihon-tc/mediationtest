@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 広告用フレームレイアウト -->
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Nend" 
+    android:layout_width="320dip" 
+    android:layout_height="70dp" 
+    android:gravity="center_horizontal">
+<!-- 
+    <net.nend.android.NendAdView
+		android:id="@+id/nend_adview" 
+		android:layout_width="fill_parent"
+		android:layout_height="50dp" 
+		NendApiKey="@string/nendApiKey"
+		NendSpotId="@string/nendSpotId"
+	/>
+ -->
+ </LinearLayout>
+

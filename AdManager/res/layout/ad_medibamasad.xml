@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mediba.ad.sdk.android.openx.MasAdView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Mediba_mas_adview"
+    android:layout_width="320dp"
+    android:layout_height="70dp"/> 
