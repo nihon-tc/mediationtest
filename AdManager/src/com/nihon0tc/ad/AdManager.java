@@ -15,13 +15,13 @@ import com.nihon0tc.util.LogUtil;
 
 public class AdManager {
 
-	private static final String TAG = "AdCreater";
+	private static final String TAG = "AdManager";
 
 	protected static Activity activity;
 	private AdView adMob;
 	public AdManager(Activity activity_) {
 		activity = activity_;
-		LogUtil.trace(TAG, "AdCreater start:" + activity.getClass().getSimpleName());
+		LogUtil.trace(TAG, "AdManager start:" + activity.getClass().getSimpleName());
 		
 		//AdMob初期化
 		adMob_init();
@@ -76,9 +76,9 @@ public class AdManager {
 			}
 			@Override
 			public void onFailedToReceiveAd(com.google.ads.Ad arg0,ErrorCode arg1) {
-                LogUtil.trace("AdMob", "[onFailedToReceiveAd]" + arg1);
-                //arg0.stopLoading();
-                //arg0.loadAd(adRequest);
+                	LogUtil.trace("AdMob", "[onFailedToReceiveAd]" + arg1);
+                	//arg0.stopLoading();
+                	//arg0.loadAd(adRequest);
 			}
 			@Override
 			public void onLeaveApplication(com.google.ads.Ad arg0) {
