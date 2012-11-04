@@ -78,7 +78,8 @@ public class AdTest extends SingleLaunchActivityTestCase<TemplateCanvasActivity>
 	            "AMoAd",
 	            "",
 	            AdSize.BANNER,
-	            request);
+	            request,
+	            null);
 
 		View adView =null;
 		try {
@@ -110,7 +111,8 @@ public class AdTest extends SingleLaunchActivityTestCase<TemplateCanvasActivity>
 	            "MedibaMasAd",
 	            "",
 	            AdSize.BANNER,
-	            request);
+	            request,
+	            null);
 
 		View adView =null;
 		try {
@@ -142,7 +144,8 @@ public class AdTest extends SingleLaunchActivityTestCase<TemplateCanvasActivity>
 	            "Nend",
 	            "",
 	            AdSize.BANNER,
-	            request);
+	            request,
+	            null);
 
 		View adView =null;
 		try {

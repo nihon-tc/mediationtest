@@ -76,9 +76,9 @@ public class AdManager {
 			}
 			@Override
 			public void onFailedToReceiveAd(com.google.ads.Ad arg0,ErrorCode arg1) {
-                	LogUtil.trace("AdMob", "[onFailedToReceiveAd]" + arg1);
-                	//arg0.stopLoading();
-                	//arg0.loadAd(adRequest);
+                LogUtil.trace("AdMob", "[onFailedToReceiveAd]" + arg1);
+                //arg0.stopLoading();
+                //arg0.loadAd(adRequest);
 			}
 			@Override
 			public void onLeaveApplication(com.google.ads.Ad arg0) {
